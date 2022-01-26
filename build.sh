@@ -91,16 +91,16 @@ cd $BUILD_DIR
   "https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/"
 
 download \
-  "OpenSSL_1_0_2o.tar.gz" \
+  "openssl-1.1.1h.tar.gz" \
   "" \
   "5b5c050f83feaa0c784070637fac3af4" \
-  "https://github.com/openssl/openssl/archive/"
+  "https://www.openssl.org/source/"
 
 download \
   "v1.2.11.tar.gz" \
   "zlib-1.2.11.tar.gz" \
   "0095d2d2d1f3442ce1318336637b695f" \
-  "https://github.com/madler/zlib/archive/"
+  "https://github.com/madler/zlib/archive/refs/tags/"
 
 download \
   "x264-stable.tar.gz" \
